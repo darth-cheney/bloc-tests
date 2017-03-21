@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CopWindowButton",
+	"category" : "CopWindow-Bloc",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"crossBar"
+	],
+	"name" : "CopWindowCollapseButton",
+	"type" : "normal"
+}

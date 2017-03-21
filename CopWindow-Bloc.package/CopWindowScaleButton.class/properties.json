@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CopWindowButton",
+	"category" : "CopWindow-Bloc",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"scaleBox"
+	],
+	"name" : "CopWindowScaleButton",
+	"type" : "normal"
+}

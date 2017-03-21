@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElement",
+	"category" : "CopWindow-Bloc",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"titleBar",
+		"leftBar",
+		"rightBar",
+		"bottomBar",
+		"bottomOuterLining",
+		"rightOuterLining",
+		"leftInnerBar",
+		"bottomInnerBar",
+		"rightInnerBar",
+		"topInnerBar",
+		"contentArea"
+	],
+	"name" : "CopWindowInner",
+	"type" : "normal"
+}
