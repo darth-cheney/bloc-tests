@@ -10,7 +10,8 @@
 		"rightSlats",
 		"leftSlats",
 		"collapseButton",
-		"scaleButton"
+		"scaleButton",
+		"title"
 	],
 	"name" : "CopWindowTitleBar",
 	"type" : "normal"
