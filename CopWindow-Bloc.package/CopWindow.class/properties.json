@@ -5,7 +5,12 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"winContainer",
+		"titleBar",
+		"midArea",
+		"contentArea"
+	],
 	"name" : "CopWindow",
 	"type" : "normal"
 }

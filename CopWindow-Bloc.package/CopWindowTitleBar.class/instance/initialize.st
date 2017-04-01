@@ -51,6 +51,7 @@ initialize
 	"Collapse Button"
 	collapseButton := CopWindowCollapseButton new.
 	collapseButton
+		margin: (BlInsets right: 6);
 		constraintsDo: [ :c |
 			c grid vertical alignCenter ].
 	
