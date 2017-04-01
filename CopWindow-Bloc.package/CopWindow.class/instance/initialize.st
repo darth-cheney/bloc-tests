@@ -5,7 +5,8 @@ initialize
 		background: Color white;
 		border: (BlBorder paint: (Color black) width: 1);
 		layout: (BlGridLayout vertical cellSpacing: 0);
-		size: self defaultSize.
+		size: self defaultSize;
+		dragOffset: 0.
 	
 	"Add the title bar"
 	titleBar := CopWindowTitleBar new.
@@ -37,6 +38,9 @@ initialize
 	self addChildren: { 
 		titleBar. midArea }.
 	
+	"Setup the drag event handlers"
+	self initializeDragHandlers.
+		
 	"Add double click event handler
 	 based on titlebar only."
 	titleBar addEventHandler: (BlEventHandler

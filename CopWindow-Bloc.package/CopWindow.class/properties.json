@@ -9,7 +9,8 @@
 		"winContainer",
 		"titleBar",
 		"midArea",
-		"contentArea"
+		"contentArea",
+		"dragOffset"
 	],
 	"name" : "CopWindow",
 	"type" : "normal"
