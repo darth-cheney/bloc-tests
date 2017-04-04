@@ -4,7 +4,7 @@ initializeDragHandlers
 	 Note that the drag should happen only
 	 on the titleBar, but that the whole
 	 window should move in space."
-	self addEventHandler: (BlEventHandler
+	self titleBar addEventHandler: (BlEventHandler
 		on: BlDragStartEvent
 		do: [ :anEvent | 
 			| selfGlobalPosition newGlobalPosition |
@@ -22,7 +22,7 @@ initializeDragHandlers
 			self dragOffset: (anEvent position - newGlobalPosition).
 	]).
 
-	self addEventHandler: (BlEventHandler
+	self titleBar addEventHandler: (BlEventHandler
 		on: BlDragEvent
 		do: [ :anEvent | 
 			| aPosition |

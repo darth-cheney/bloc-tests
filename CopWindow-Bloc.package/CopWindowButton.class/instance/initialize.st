@@ -1,6 +1,6 @@
 initialization
 initialize
-	|inner rightPad bottomPad leftPad topPad greyBack whiteBack|
+	|rightPad bottomPad leftPad topPad greyBack whiteBack|
 	
 	super initialize.
 	self size: 13@13.
@@ -73,6 +73,7 @@ initialize
 	
 	"At this point, we should be done"
 	self addChild: inner.
+	self initializeEventHandlers.
 	^self.
 	
 	

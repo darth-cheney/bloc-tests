@@ -23,3 +23,4 @@ exampleBasic
 			c frame horizontal alignCenter ]).
 	space root addChild: win.
 	space show.
+	^ win.

@@ -6,6 +6,7 @@ initialize
 		border: (BlBorder paint: (Color black) width: 1);
 		layout: (BlGridLayout vertical cellSpacing: 0);
 		size: self defaultSize;
+		effect: (BlDropShadowEffect color: (Color gray) width: 1 offset: 1);
 		dragOffset: 0.
 	
 	"Add the title bar"
