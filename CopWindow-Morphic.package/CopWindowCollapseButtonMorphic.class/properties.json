@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CopWindowButtonMorphic",
+	"category" : "CopWindow-Morphic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CopWindowCollapseButtonMorphic",
+	"type" : "normal"
+}

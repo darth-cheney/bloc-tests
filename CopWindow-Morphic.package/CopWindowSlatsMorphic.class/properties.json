@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Morph",
+	"category" : "CopWindow-Morphic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CopWindowSlatsMorphic",
+	"type" : "normal"
+}

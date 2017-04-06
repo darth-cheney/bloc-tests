@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Morph",
+	"category" : "CopWindow-Morphic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"closeButton",
+		"rightSlats",
+		"leftSlats",
+		"collapseButton",
+		"scaleButton",
+		"title"
+	],
+	"name" : "CopWindowTitleBarMorphic",
+	"type" : "normal"
+}
