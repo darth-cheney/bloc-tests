@@ -1,7 +1,9 @@
 as yet unclassified
 drawWhiteSlat
-	^ (Morph new 
-			color: Color white;
-			height: 1;
-			vResizing: #rigid;
-			hResizing: #spaceFill).
+	| tmp2 |
+	tmp2 := Morph new.
+	tmp2
+		color: Color white;
+		height: 1;
+		vResizing: #rigid.
+	^ tmp2 hResizing: #spaceFill

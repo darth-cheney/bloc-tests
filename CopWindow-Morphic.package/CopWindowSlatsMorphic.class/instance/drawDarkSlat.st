@@ -1,7 +1,9 @@
 as yet unclassified
 drawDarkSlat
-	^ (Morph new 
-			color: (Color gray lighter lighter);
-			height: 1;
-			vResizing: #rigid;
-			hResizing: #spaceFill).
+	| tmp2 |
+	tmp2 := Morph new.
+	tmp2
+		color: Color gray lighter lighter;
+		height: 1;
+		vResizing: #rigid.
+	^ tmp2 hResizing: #spaceFill

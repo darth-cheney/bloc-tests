@@ -1,12 +1,12 @@
 initialization
 initialize
-	| crossBar |
+	| tmp1 tmp3 |
 	super initialize.
-	crossBar := BorderedMorph new
-		extent: 11@3;
-		position: 1@5;
-		color: (Color transparent);
-		borderColor: (Color black);
-		borderWidth: 1.
-	self addMorph: crossBar.
-	^ self.
+	tmp3 := BorderedMorph new.
+	tmp3
+		extent: 11 @ 3;
+		position: 1 @ 5;
+		color: Color transparent;
+		borderColor: Color black.
+	tmp1 := tmp3 borderWidth: 1.
+	self addMorph: tmp1

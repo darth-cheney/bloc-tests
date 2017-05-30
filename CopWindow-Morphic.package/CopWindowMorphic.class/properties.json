@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "BorderedMorph",
+	"category" : "CopWindow-Morphic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"innerWrapper",
+		"contentArea",
+		"titleBar",
+		"content",
+		"contentAreaWrapper"
+	],
+	"name" : "CopWindowMorphic",
+	"type" : "normal"
+}
