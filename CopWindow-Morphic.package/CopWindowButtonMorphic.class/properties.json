@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"inner"
+		"inner",
+		"isPressedDown",
+		"clickAction"
 	],
 	"name" : "CopWindowButtonMorphic",
 	"type" : "normal"

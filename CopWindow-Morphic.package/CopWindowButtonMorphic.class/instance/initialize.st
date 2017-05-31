@@ -2,6 +2,8 @@ initialization
 initialize
 	| tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp9 tmp11 tmp13 tmp15 tmp17 tmp19 tmp21 tmp23 |
 	super initialize.
+	isPressedDown := false.
+	clickAction := self defaultClickAction.
 	tmp9 := self.
 	tmp9
 		width: 13;
@@ -21,7 +23,7 @@ initialize
 	tmp15
 		extent: 11 @ 11;
 		position: 1 @ 1;
-		fillStyle: self drawGradient;
+		"fillStyle: self drawGradient;"
 		borderColor: Color black.
 	inner := tmp15 borderWidth: 1.
 	tmp17 := Morph new.
@@ -51,4 +53,5 @@ initialize
 	self
 		addMorph: tmp6;
 		addMorph: tmp5;
-		addMorph: inner
+		addMorph: inner.
+	inner fillStyle: (self drawGradient).

@@ -1,0 +1,3 @@
+other
+closeWindow
+	self delete.

@@ -2,6 +2,7 @@ initialization
 initialize
 	| tmp2 tmp4 tmp6 tmp8 tmp10 tmp12 |
 	super initialize.
+	isDragging := false.
 	tmp2 := self.
 	tmp2
 		color: Color white;
@@ -58,4 +59,5 @@ initialize
 		addAllMorphs:
 			{titleBar.
 			contentArea}.
-	self addMorph: innerWrapper
+	self addMorph: innerWrapper.
+	self setupButtonActions.

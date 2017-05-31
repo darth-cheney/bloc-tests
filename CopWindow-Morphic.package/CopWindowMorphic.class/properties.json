@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "EricGade 5/31/2017 10:48",
 	"super" : "BorderedMorph",
 	"category" : "CopWindow-Morphic",
 	"classinstvars" : [ ],
@@ -10,7 +10,8 @@
 		"contentArea",
 		"titleBar",
 		"content",
-		"contentAreaWrapper"
+		"contentAreaWrapper",
+		"isDragging"
 	],
 	"name" : "CopWindowMorphic",
 	"type" : "normal"
