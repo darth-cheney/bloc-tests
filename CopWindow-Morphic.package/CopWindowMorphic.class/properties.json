@@ -11,7 +11,8 @@
 		"titleBar",
 		"content",
 		"contentAreaWrapper",
-		"isDragging"
+		"isDragging",
+		"isStretching"
 	],
 	"name" : "CopWindowMorphic",
 	"type" : "normal"

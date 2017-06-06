@@ -3,6 +3,7 @@ initialize
 	| tmp2 tmp4 tmp6 tmp8 tmp10 tmp12 |
 	super initialize.
 	isDragging := false.
+	isStretching := false.
 	tmp2 := self.
 	tmp2
 		color: Color white;
