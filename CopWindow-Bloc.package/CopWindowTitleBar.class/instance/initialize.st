@@ -9,7 +9,7 @@ initialize
 		layout: (BlGridLayout horizontal cellSpacing: 3);
 		constraintsDo: [ :c | c horizontal matchParent.
 			c vertical exact: 19 ];
-		position: 25@125.
+		relocate: 25@125.
 	
 	"Close Button"
 	closeButton := CopWindowButton new.
@@ -27,8 +27,9 @@ initialize
 	title := BlTextElement new
 	text: ((BrRopedText string: 'Window')
 		attributes: { 
-			BrFontFamilyAttribute named: 'Helvetica'.
-			BrFontSizeAttribute size: 12 });
+			BrFontFamilyAttribute named: 'Chicago'.
+			BrFontSizeAttribute size: 10.
+			BrTextForegroundAttribute paint: (Color black lighter lighter lighter) });
 	constraintsDo: [ :c |
 		c horizontal fitContent.
 		c vertical fitContent.

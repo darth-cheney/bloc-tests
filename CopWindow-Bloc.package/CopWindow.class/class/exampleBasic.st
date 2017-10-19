@@ -6,14 +6,15 @@ exampleBasic
 	
 	"New window with default size"
 	win := (self new initialize).
-	win position: 100@100.
+	win relocate: 100@100.
 	
 	"Text for window content"
 	text := ((BrRopedText string: 'Hello.')
 	attributes: { 
-		BrFontFamilyAttribute named: 'Helvetica Neue'.
+		BrFontFamilyAttribute named: 'Chicago'.
 		BrFontSizeAttribute size: 48.
-		BrFontWeightAttribute thin }). 
+		BrFontWeightAttribute thin.
+		BrTextForegroundAttribute paint: (Color black lighter lighter lighter) }). 
 		
 	win contentArea layout: (BlFrameLayout new).
 	win contentArea addChild: (BlTextElement new
