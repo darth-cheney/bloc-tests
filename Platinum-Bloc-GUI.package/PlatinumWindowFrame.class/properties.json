@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElement",
+	"category" : "Platinum-Bloc-GUI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contentWrapper"
+	],
+	"name" : "PlatinumWindowFrame",
+	"type" : "normal"
+}

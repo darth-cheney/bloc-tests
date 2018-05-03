@@ -1,0 +1,3 @@
+accessing
+content
+	^ contentWrapper content

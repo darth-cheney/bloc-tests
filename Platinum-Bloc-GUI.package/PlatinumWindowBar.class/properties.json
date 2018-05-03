@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElement",
+	"category" : "Platinum-Bloc-GUI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"closeButton",
+		"leftSlats"
+	],
+	"name" : "PlatinumWindowBar",
+	"type" : "normal"
+}
