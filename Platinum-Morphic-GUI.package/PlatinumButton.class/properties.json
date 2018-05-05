@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Morph",
+	"category" : "Platinum-Morphic-GUI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pressed",
+		"action",
+		"labelMorph"
+	],
+	"name" : "PlatinumButton",
+	"type" : "normal"
+}
