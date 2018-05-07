@@ -1,3 +1,3 @@
 drawing
 drawOnSpartaCanvas: aCanvas
-	self drawAllSlatsOnCanvas: aCanvas.
+	self drawOnlyWhiteSlatsOnCanvas: aCanvas.
