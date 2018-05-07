@@ -1,8 +1,7 @@
 as yet unclassified
-drawInnerShadowsOn: aCanvas
+drawInnerShadowsOn: aCanvas inRect: rect
 	"Draw the innre dark shadows on the bottom right of the button"
-	| rect lightPath lightColor darkPath darkColor |
-	rect := Rectangle point: (self boundsInLocal origin + 0.5) point: (self boundsInLocal corner - 0.5).
+	| lightPath lightColor darkPath darkColor |
 	darkColor := Color r: 119 g: 119 b: 119 range: 255.
 	lightColor := Color r: 170 g: 170 b: 170 range: 255.
 	darkPath := aCanvas path

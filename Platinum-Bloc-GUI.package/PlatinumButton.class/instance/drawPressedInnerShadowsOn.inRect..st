@@ -1,7 +1,6 @@
 as yet unclassified
-drawPressedInnerShadowsOn: aCanvas
-	| rect darkColor lightColor darkPath lightPath |
-	rect := Rectangle point: (0.5@0.5) point: (self boundsInLocal corner - 0.5).
+drawPressedInnerShadowsOn: aCanvas inRect: rect
+	| darkColor lightColor darkPath lightPath |
 	lightColor := Color r: 136 g: 136 b: 136 range: 255.
 	darkColor := Color r: 119 g: 119 b: 119 range: 255.
 	lightPath := aCanvas path

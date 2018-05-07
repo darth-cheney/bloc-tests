@@ -1,7 +1,6 @@
 as yet unclassified
-drawBlackBorderOn: aCanvas
-	| borderBounds vertices path fillColor |
-	borderBounds := Rectangle point: (0.5@0.5) point: (self boundsInLocal corner - 0.5).
+drawBlackBorderOn: aCanvas inRect: borderBounds
+	| vertices path fillColor |
 	fillColor := self fillColor.
 	pressed ifTrue: [ fillColor := self fillColorPressed ].
 	vertices := { 

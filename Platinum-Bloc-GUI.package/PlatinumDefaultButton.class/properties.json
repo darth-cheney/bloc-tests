@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PlatinumButton",
+	"category" : "Platinum-Bloc-GUI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PlatinumDefaultButton",
+	"type" : "normal"
+}

@@ -1,9 +1,8 @@
 as yet unclassified
-drawPressedInnerHighlightsOn: aCanvas
+drawPressedInnerHighlightsOn: aCanvas inRect: rect
 	"Draw the darker top/right highlights when the
 	button is being pressed."
-	| rect darkPath lightPath darkColor lightColor |
-	rect := Rectangle point: (self boundsInLocal origin + 0.5) point: (self boundsInLocal corner - 0.5).
+	| darkPath lightPath darkColor lightColor |
 	darkColor := Color r: 68 g: 68 b: 68 range: 255.
 	lightColor := Color r: 85 g: 85 b: 85 range: 255.
 	darkPath := aCanvas path
