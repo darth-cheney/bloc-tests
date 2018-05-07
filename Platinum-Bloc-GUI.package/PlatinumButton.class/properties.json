@@ -4,9 +4,12 @@
 	"category" : "Platinum-Bloc-GUI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"LabelFontBytes"
+	],
 	"instvars" : [
-		"pressed"
+		"pressed",
+		"labelString"
 	],
 	"name" : "PlatinumButton",
 	"type" : "normal"

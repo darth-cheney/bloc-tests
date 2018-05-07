@@ -8,3 +8,4 @@ drawOnSpartaCanvas: aCanvas
 		ifFalse: [ 
 			self drawInnerShadowsOn: aCanvas.
 			self drawInnerHighlightOn: aCanvas ].
+	self drawTextOnCanvas: aCanvas.
