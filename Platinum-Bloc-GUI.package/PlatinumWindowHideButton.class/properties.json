@@ -1,16 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "BlElement",
+	"super" : "PlatinumWindowBarButton",
 	"category" : "Platinum-Bloc-GUI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"closeButton",
-		"leftSlats",
-		"scaleButton",
-		"hideButton"
-	],
-	"name" : "PlatinumWindowBar",
+	"instvars" : [ ],
+	"name" : "PlatinumWindowHideButton",
 	"type" : "normal"
 }
