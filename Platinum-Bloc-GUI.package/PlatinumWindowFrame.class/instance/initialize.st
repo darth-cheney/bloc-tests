@@ -6,7 +6,6 @@ initialize
 		layout: (BlLinearLayout vertical).
 	contentWrapper := PlatinumWindowContentWrapper new.
 	contentWrapper 
-		background: (Color green);
 		constraintsDo: [ :c |
 			c vertical matchParent.
 			c horizontal matchParent ].

@@ -6,7 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"content"
+		"content",
+		"scrollerVertical",
+		"scrollerHorizontal",
+		"growGrip"
 	],
 	"name" : "PlatinumWindowContentWrapper",
 	"type" : "normal"

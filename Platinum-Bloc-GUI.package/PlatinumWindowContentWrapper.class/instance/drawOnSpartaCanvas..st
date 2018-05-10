@@ -1,7 +1,12 @@
-initialization
+drawing
 drawOnSpartaCanvas: aCanvas
-	aCanvas fill
-		paint: (Color r: 153 g: 153 b: 153 range: 255);
-		path: (self boundsInLocal);
+	| rect |
+	super drawOnSpartaCanvas: aCanvas.
+	self drawInnerSidesOn: aCanvas.
+	rect := Rectangle point: (self boundsInLocal origin + 1.5) point: (self boundsInLocal corner - 1.5).
+	aCanvas stroke
+		drawOptions: (aCanvas drawOptions antialiasNone);
+		paint: Color black;
+		path: rect;
 		draw.
-	self drawInnerRectsOn: aCanvas.
+	
