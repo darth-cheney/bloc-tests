@@ -1,11 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "PlatinumScrollbar",
+	"super" : "PlatinumScroller",
 	"category" : "Platinum-Bloc-Scrollers",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "PlatinumVerticalScrollbar",
+	"instvars" : [
+		"leftButton",
+		"rightButton"
+	],
+	"name" : "PlatinumHorizontalScroller",
 	"type" : "normal"
 }

@@ -1,12 +1,7 @@
-drawing
-drawOnSpartaCanvas: aCanvas
+as yet unclassified
+drawInnerShadowsOnCanvas: aCanvas
 	| rect |
 	rect := Rectangle point: (self boundsInLocal origin) point: (self boundsInLocal extent - 0.5).
-	aCanvas fill
-		drawOptions: (aCanvas drawOptions antialiasNone);
-		paint: (Color r: 170 g: 170 b: 170 range: 255);
-		path: self boundsInLocal;
-		draw.
 	"Inner bevel color 1"
 	aCanvas stroke
 		drawOptions: (aCanvas drawOptions antialiasNone);

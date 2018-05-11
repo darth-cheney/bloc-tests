@@ -4,7 +4,7 @@ exampleBasic
 	space := BlSpace new extent: 400@300.
 	track := self new.
 	track
-		height: 150;
-		relocate: ((386/2)@100).
+		width: 150;
+		relocate: 125@(286/2).
 	space root addChild: track.
 	space show.

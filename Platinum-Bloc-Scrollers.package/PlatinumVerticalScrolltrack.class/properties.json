@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "BlElement",
+	"super" : "PlatinumScrolltrack",
 	"category" : "Platinum-Bloc-Scrollers",
 	"classinstvars" : [ ],
 	"pools" : [ ],

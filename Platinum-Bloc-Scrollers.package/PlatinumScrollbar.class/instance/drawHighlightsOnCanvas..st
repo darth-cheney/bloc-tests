@@ -1,12 +1,7 @@
-drawing
-drawOnSpartaCanvas: aCanvas
+as yet unclassified
+drawHighlightsOnCanvas: aCanvas
 	| rect |
 	rect := Rectangle point: (self boundsInLocal origin + 0.5) point: (self boundsInLocal corner - 0.5).
-	aCanvas fill
-		drawOptions: (aCanvas drawOptions antialiasNone);
-		paint: self barColor;
-		path: self boundsInLocal;
-		draw.
 	aCanvas stroke
 		drawOptions: (aCanvas drawOptions antialiasNone);
 		paint: self lightHighlightColor;
@@ -25,5 +20,3 @@ drawOnSpartaCanvas: aCanvas
 			lineTo: (rect left)@(rect bottom);
 			build);
 		draw.
-	
-	

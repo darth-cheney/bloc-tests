@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "PlatinumVerticalScrollbar",
+	"name" : "PlatinumHorizontalScrollbar",
 	"type" : "normal"
 }

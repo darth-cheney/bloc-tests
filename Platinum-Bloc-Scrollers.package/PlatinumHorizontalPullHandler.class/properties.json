@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "PlatinumScrollbar",
+	"super" : "BlPullHandler",
 	"category" : "Platinum-Bloc-Scrollers",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "PlatinumVerticalScrollbar",
+	"name" : "PlatinumHorizontalPullHandler",
 	"type" : "normal"
 }
