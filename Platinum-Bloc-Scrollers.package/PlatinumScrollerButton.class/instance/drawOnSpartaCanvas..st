@@ -32,4 +32,3 @@ drawOnSpartaCanvas: aCanvas
 			lineTo: (rect left)@(rect bottom);
 			build);
 		draw.
-	self drawArrowOnCanvas: aCanvas.

@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "BlElement",
+	"super" : "PlatinumFormElement",
 	"category" : "Platinum-Bloc-Scrollers",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"arrow"
+		"direction"
 	],
-	"name" : "PlatinumScrollerButton",
+	"name" : "PlatinumScrollerArrow",
 	"type" : "normal"
 }
