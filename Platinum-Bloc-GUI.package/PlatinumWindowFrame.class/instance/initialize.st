@@ -12,8 +12,8 @@ initialize
 	
 	self addChild: contentWrapper.
 	
-	self addEventHandler:
+	"self addEventHandler:
 			(BlEventHandler
 				on: BlDblClickEvent
-				do: [ :evt | BlElementSelection on: self ]).
+				do: [ :evt | BlElementSelection on: self ])."
 	

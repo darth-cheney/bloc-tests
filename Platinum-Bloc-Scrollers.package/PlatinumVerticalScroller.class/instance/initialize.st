@@ -10,11 +10,13 @@ initialize
 		addChild: scrollbar.
 	upButton := (PlatinumScrollerButton new direction: #up).
 	upButton 
-		addEventHandlerOn: BlClickEvent do: [ self moveUp ].
+		addEventHandlerOn: BlMouseDownEvent do: [ self moveUp ];
+		addEventHandlerOn: BlMouseStillDownEvent do: [ self moveUp ].
 	downButton := (PlatinumScrollerButton new direction: #down).
 	downButton 
 		margin: (BlInsets bottom: 0);
-		addEventHandlerOn: BlClickEvent do: [ self moveDown ].
+		addEventHandlerOn: BlMouseDownEvent do: [ self moveDown ];
+		addEventHandlerOn: BlMouseStillDownEvent do: [ self moveDown ].
 	self
 		layout: (BlLinearLayout vertical); 
 		border: (BlBorder paint: Color black);

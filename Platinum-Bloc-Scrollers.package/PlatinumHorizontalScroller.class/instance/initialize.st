@@ -10,11 +10,11 @@ initialize
 		addChild: scrollbar.
 	leftButton := (PlatinumScrollerButton new direction: #left).
 	leftButton 
-		addEventHandlerOn: BlClickEvent do: [ self moveLeft ].
+		addEventHandlerOn: BlMouseDownEvent do: [ self moveLeft ].
 	rightButton := (PlatinumScrollerButton new direction: #right).
 	rightButton 
 		margin: (BlInsets bottom: 0);
-		addEventHandlerOn: BlClickEvent do: [ self moveRight ].
+		addEventHandlerOn: BlMouseDownEvent do: [ self moveRight ].
 	self
 		layout: (BlLinearLayout horizontal); 
 		border: (BlBorder paint: Color black);
