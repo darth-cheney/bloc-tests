@@ -16,7 +16,7 @@ exampleInWindow
 		constraintsDo: [ :c |
 			c vertical matchParent.
 			c frame horizontal alignRight. ];
-		margin: (BlInsets right: -1).
+		margin: (BlInsets top: -1 right: -1 bottom: -1 left: 0).
 	win content addChild: scroller.
 	
 	button := PlatinumDefaultButton new labelString: 'Continue'.

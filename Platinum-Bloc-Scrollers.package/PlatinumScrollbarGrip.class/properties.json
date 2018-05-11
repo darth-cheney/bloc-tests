@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PlatinumFormElement",
+	"category" : "Platinum-Bloc-Scrollers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PlatinumScrollbarGrip",
+	"type" : "normal"
+}

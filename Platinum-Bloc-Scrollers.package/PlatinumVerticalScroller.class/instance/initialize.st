@@ -10,8 +10,7 @@ initialize
 		addChild: scrollbar.
 	upButton := (PlatinumScrollerButton new direction: #up).
 	upButton 
-		addEventHandlerOn: BlClickEvent do: [ self moveUp ];
-		margin: (BlInsets bottom: -1).
+		addEventHandlerOn: BlClickEvent do: [ self moveUp ].
 	downButton := (PlatinumScrollerButton new direction: #down).
 	downButton 
 		margin: (BlInsets bottom: 0);

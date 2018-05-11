@@ -1,4 +1,6 @@
 initialization
 initialize
 	super initialize.
-	self direction: #up.
+	self
+		background: Color transparent; 
+		direction: #up.
