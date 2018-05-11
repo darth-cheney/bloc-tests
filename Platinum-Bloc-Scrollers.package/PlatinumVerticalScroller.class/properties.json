@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "PlatinumScroller",
+	"category" : "Platinum-Bloc-Scrollers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"upButton",
+		"downButton"
+	],
+	"name" : "PlatinumVerticalScroller",
+	"type" : "normal"
+}

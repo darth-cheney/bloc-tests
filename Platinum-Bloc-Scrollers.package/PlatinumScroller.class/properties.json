@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElement",
+	"category" : "Platinum-Bloc-Scrollers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"scrollbar",
+		"track"
+	],
+	"name" : "PlatinumScroller",
+	"type" : "normal"
+}
