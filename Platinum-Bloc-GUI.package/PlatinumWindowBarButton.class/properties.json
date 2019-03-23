@@ -5,7 +5,12 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"form",
+		"pressedForm",
+		"pressed",
+		"actionBlock"
+	],
 	"name" : "PlatinumWindowBarButton",
 	"type" : "normal"
 }

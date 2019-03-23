@@ -1,12 +1,35 @@
 as yet unclassified
 exampleInWindowMultiple
-	| space win button buttonDefault |
+	| space win winBar offset button buttonDefault |
 	space := BlSpace new extent: 500@400.
 	win := PlatinumWindowFrame new.
+	winBar := PlatinumWindowBar new.
+	winBar addEventHandler: (BlEventHandler
+		on: BlDragStartEvent
+		do: [ :anEvent |
+			| selfGlobalPosition newGlobalPosition |
+			anEvent consumed: true.
+			
+			selfGlobalPosition := win positionInSpace.
+			newGlobalPosition := win space root globalPointToLocal: selfGlobalPosition.
+			newGlobalPosition := newGlobalPosition.
+			
+			win invalidate.
+			win relocate: newGlobalPosition.
+			win invalidate.
+			offset := (anEvent position - newGlobalPosition).
+		]).
+	winBar addEventHandler: (BlEventHandler
+		on: BlDragEvent
+		do: [ :anEvent |
+			|aPosition|
+			anEvent consumed: true.
+			aPosition := anEvent position - offset.
+			win relocate: aPosition ]).
 	win
 		width: 250;
 		height: 200;
-		addChildFirst: (PlatinumWindowBar new);
+		addChildFirst: winBar;
 		relocate: 125@100.
 	win content layout: (BlGridLayout new 
 		cellSpacing: 10;
