@@ -6,10 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"action",
+		"actionBlock",
 		"form",
-		"pressedForm",
-		"pressed",
-		"actionBlock"
+		"pressedForm"
 	],
 	"name" : "PlatinumWindowBarButtonMorph",
 	"type" : "normal"
