@@ -1,6 +1,6 @@
 initialization
 initialize
-	| spacer1 spacer2 spacer3 |
+	| spacer1 spacer2 spacer3 spacer4 spacer5 |
 	super initialize.
 	spacer1 := Morph new
 		color: Color transparent;
@@ -16,12 +16,25 @@ initialize
 		color: Color transparent;
 		width: 3;
 		height: 13;
-		hResizing: #rigid.		
+		hResizing: #rigid.	
+	spacer4 := Morph new
+		color: Color transparent;
+		width: 4;
+		height: 13;
+		hResizing: #rigid.	
+	spacer5 := Morph new
+		color: Color transparent;
+		width: 4;
+		height: 13;
+		hResizing: #rigid.
 	closeButton := PlatinumWindowBarButtonMorph new.
 	leftSlat := Morph new.
 	rightSlat := Morph new.
 	scaleButton := PlatinumWindowGrowButtonMorph new.
 	minimizeButton := PlatinumWindowMinButtonMorph new.
+	titleMorph := LabelMorph newLabel: 'Untitled'.
+	titleMorph font: (FreeTypeFont fromBytes: (PlatinumAssets fontBytes) pointSize: 8).
+	titleMorph cellInset: 3.
 	leftSlat
 		fillStyle: (PlatinumSlatsFillStyle new);
 		height: 12;
@@ -45,6 +58,9 @@ initialize
 			closeButton.
 			spacer1.
 			leftSlat.
+			spacer4.
+			titleMorph.
+			spacer5.
 			rightSlat.
 			spacer2.
 			scaleButton.
