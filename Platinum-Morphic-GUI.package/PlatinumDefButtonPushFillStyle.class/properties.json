@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PlatinumButtonPushFillStyle",
+	"category" : "Platinum-Morphic-GUI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PlatinumDefButtonPushFillStyle",
+	"type" : "normal"
+}

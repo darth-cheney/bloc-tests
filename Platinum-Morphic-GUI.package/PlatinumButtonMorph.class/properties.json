@@ -4,8 +4,14 @@
 	"category" : "Platinum-Morphic-GUI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classvars" : [
+		"LabelFontBytes"
+	],
+	"instvars" : [
+		"pressed",
+		"actionBlock",
+		"label"
+	],
 	"name" : "PlatinumButtonMorph",
 	"type" : "normal"
 }

@@ -1,16 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Morph",
+	"super" : "PlatinumButtonBorderStyle",
 	"category" : "Platinum-Morphic-GUI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"form",
-		"pressedForm",
-		"pressed",
-		"actionBlock"
-	],
-	"name" : "PlatinumWindowBarButtonMorph",
+	"instvars" : [ ],
+	"name" : "PlatinumDefButtonBorderStyle",
 	"type" : "normal"
 }
