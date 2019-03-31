@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Morph",
+	"category" : "Platinum-Morphic-Windows",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"closeButton",
+		"leftSlat",
+		"rightSlat",
+		"scaleButton",
+		"minimizeButton"
+	],
+	"name" : "PlatinumWindowTitleBarMorph",
+	"type" : "normal"
+}
