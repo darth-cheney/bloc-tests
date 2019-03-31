@@ -33,7 +33,7 @@ initialize
 	scaleButton := PlatinumWindowGrowButtonMorph new.
 	minimizeButton := PlatinumWindowMinButtonMorph new.
 	titleMorph := LabelMorph newLabel: 'Untitled'.
-	titleMorph font: (FreeTypeFont fromBytes: (PlatinumAssets fontBytes) pointSize: 8).
+	titleMorph font: (PlatinumAssets charcoalFontSized: 8).
 	titleMorph cellInset: 3.
 	leftSlat
 		fillStyle: (PlatinumSlatsFillStyle new);

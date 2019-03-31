@@ -3,7 +3,7 @@ initialize
 	super initialize.
 	pressed := false.
 	label := LabelMorph newLabel: 'Click Me'.
-	label font: (FreeTypeFont fromBytes: (self class labelFontBytes) pointSize: 9).
+	label font: (PlatinumAssets charcoalFontSized: 8).
 	self
 		layoutPolicy: (TableLayout new); 
 		cellPositioning: #center;
@@ -14,9 +14,8 @@ initialize
 		vResizing: #shrinkWrap;
 		listCentering: #center;
 		wrapCentering: #center;
-		layoutInset: 5;
+		layoutInset: 2;
 		width: 66;
-		height: 20;
 		borderStyle: (PlatinumButtonBorderStyle new);
 		fillStyle: (PlatinumButtonFillStyle new);
 		addMorph: label.
