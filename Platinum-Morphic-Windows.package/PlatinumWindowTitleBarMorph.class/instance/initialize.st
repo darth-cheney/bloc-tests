@@ -32,9 +32,8 @@ initialize
 	rightSlat := Morph new.
 	scaleButton := PlatinumWindowGrowButtonMorph new.
 	minimizeButton := PlatinumWindowMinButtonMorph new.
-	titleMorph := LabelMorph newLabel: 'Untitled'.
-	titleMorph font: (PlatinumAssets charcoalFontSized: 8).
-	titleMorph cellInset: 3.
+	titleMorph := PlatinumLabel new.
+	titleMorph fontSize: 9.
 	leftSlat
 		fillStyle: (PlatinumSlatsFillStyle new);
 		height: 12;
@@ -65,4 +64,4 @@ initialize
 			spacer2.
 			scaleButton.
 			spacer3.
-			minimizeButton }
+			minimizeButton }.

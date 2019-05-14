@@ -1,0 +1,3 @@
+accessing
+lightHighlightColor
+	^ Color white

@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"contentMorph"
+		"contentMorph",
+		"titleBar"
 	],
 	"name" : "PlatinumWindowMorph",
 	"type" : "normal"

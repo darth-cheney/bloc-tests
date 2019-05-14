@@ -1,6 +1,8 @@
 initialization
 initialize
 	super initialize.
+	titleBar := PlatinumWindowTitleBarMorph new.
+	self initializeButtonHandlers.
 	contentMorph := PlatinumWindowContentMorph new.
 	contentMorph
 		vResizing: #spaceFill;
@@ -12,5 +14,5 @@ initialize
 		borderStyle: PlatinumWinBorderStyle new;
 		color: Color transparent;
 		addMorph: contentMorph;
-		addMorph: PlatinumWindowTitleBarMorph new.
+		addMorph: titleBar.
 		

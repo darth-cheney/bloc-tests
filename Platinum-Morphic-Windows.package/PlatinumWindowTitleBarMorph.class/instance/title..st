@@ -1,3 +1,3 @@
 accessing
 title: aString
-	titleMorph contents: aString. 
+	titleMorph string: aString. 

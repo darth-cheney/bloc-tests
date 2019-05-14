@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BorderedMorph",
+	"category" : "Platinum-Morphic-GUI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"checked",
+		"checkMorph"
+	],
+	"name" : "PlatinumCheckboxMorph",
+	"type" : "normal"
+}
