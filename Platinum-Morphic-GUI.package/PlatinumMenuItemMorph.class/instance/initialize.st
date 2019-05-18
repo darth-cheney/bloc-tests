@@ -14,5 +14,5 @@ initialize
 		addMorph: label;
 		addMorph: (Morph new
 			color: Color transparent;
-			width: 30;
+			width: 22;
 			vResizing: #spaceFill).
