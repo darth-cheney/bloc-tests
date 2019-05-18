@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"areas"
+		"label"
 	],
-	"name" : "PlatinumMenuMorph",
+	"name" : "PlatinumMenuItemMorph",
 	"type" : "normal"
 }

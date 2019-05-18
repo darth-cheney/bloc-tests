@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"areas"
-	],
-	"name" : "PlatinumMenuMorph",
+	"instvars" : [ ],
+	"name" : "PlatinumMenuAreaMorph",
 	"type" : "normal"
 }
