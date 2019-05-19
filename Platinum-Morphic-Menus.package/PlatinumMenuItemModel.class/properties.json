@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Platinum-Morphic-Menus",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"action",
+		"submenu",
+		"labelText"
+	],
+	"name" : "PlatinumMenuItemModel",
+	"type" : "normal"
+}

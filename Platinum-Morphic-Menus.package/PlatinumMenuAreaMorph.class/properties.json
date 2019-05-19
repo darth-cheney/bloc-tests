@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Morph",
-	"category" : "Platinum-Morphic-GUI",
+	"category" : "Platinum-Morphic-Menus",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
