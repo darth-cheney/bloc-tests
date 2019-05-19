@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "DockingBarMorph",
+	"category" : "Platinum-Morphic-Menus",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PlatinumMenuBarMorph",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "FillStyle",
+	"category" : "Platinum-Morphic-Menus",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PlatinumMenuBarFillStyle",
+	"type" : "normal"
+}
