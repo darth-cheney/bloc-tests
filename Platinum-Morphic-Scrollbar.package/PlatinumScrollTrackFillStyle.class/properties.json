@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "FillStyle",
+	"category" : "Platinum-Morphic-Scrollbar",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PlatinumScrollTrackFillStyle",
+	"type" : "normal"
+}

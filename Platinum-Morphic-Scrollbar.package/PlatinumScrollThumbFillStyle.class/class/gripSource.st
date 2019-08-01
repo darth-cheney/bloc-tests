@@ -1,0 +1,3 @@
+as yet unclassified
+gripSource
+	^ 'iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAJElEQVR4XmN49+7d/zNn/mPFM2f+Z2AAEcbGM//jwgzvhoMJACj7roXOht3yAAAAAElFTkSuQmCC'

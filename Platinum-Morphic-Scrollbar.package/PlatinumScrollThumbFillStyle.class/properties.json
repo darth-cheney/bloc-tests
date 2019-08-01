@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "FillStyle",
+	"category" : "Platinum-Morphic-Scrollbar",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"gripForm"
+	],
+	"name" : "PlatinumScrollThumbFillStyle",
+	"type" : "normal"
+}
