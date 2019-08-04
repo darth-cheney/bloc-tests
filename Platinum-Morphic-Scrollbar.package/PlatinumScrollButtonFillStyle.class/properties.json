@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "FillStyle",
+	"category" : "Platinum-Morphic-Scrollbar",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"direction",
+		"arrowForm"
+	],
+	"name" : "PlatinumScrollButtonFillStyle",
+	"type" : "normal"
+}
