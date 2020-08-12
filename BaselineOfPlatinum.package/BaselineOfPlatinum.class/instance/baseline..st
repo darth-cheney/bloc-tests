@@ -13,5 +13,6 @@ baseline: spec
 				package: 'Platinum-Bloc-Demos' with: [ spec requires: #('Platinum-Bloc-GUI' 'Bloc') ].
 				
 			spec
-				group: 'default' with: #('Platinum-Bloc-GUI' 'Platinum-Bloc-Scrollers' 'Platinum-Bloc-Demos').
+				group: 'default' with: #('Platinum-Bloc-GUI' 'Platinum-Bloc-Scrollers' 'Platinum-Bloc-Demos');
+				group: 'morphic' with: #('Platinum-Morphic-GUI' 'Platinum-Morphic-Windows' 'Platinum-Morphic-Scrollbar' 'Platinum-Morphic-Windows').
 		].
