@@ -11,7 +11,8 @@
 		"rightSlat",
 		"scaleButton",
 		"minimizeButton",
-		"titleMorph"
+		"titleMorph",
+		"moveAction"
 	],
 	"name" : "PlatinumWindowTitleBarMorph",
 	"type" : "normal"
