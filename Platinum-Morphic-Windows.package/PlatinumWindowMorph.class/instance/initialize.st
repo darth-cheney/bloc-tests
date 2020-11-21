@@ -5,7 +5,9 @@ initialize
 	titleBar := PlatinumWindowTitleBarMorph new.
 	titleBar
 		onDragMove: [ :delta |
-			self position: (self position + delta) ].
+			self position: (self position + delta).
+			self owner firstSubmorph == self
+				ifFalse: [ self comeToFront ] ].
 	self initializeButtonHandlers.
 	contentMorph := PlatinumWindowContentMorph new.
 	self 
