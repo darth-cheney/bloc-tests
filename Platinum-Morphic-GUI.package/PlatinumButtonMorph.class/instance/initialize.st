@@ -11,20 +11,21 @@ initialize
 		height: 1.
 	super initialize.
 	pressed := false.
-	label := LabelMorph newLabel: 'Click Me'.
+	label := StringMorph new contents: 'Click Me'.
 	label 
 		color: Color black;
 		font: (PlatinumAssets charcoalFontSized: 9).
 	self
+		color: Color transparent;
 		layoutPolicy: (TableLayout new); 
-		"cellPositioning: #center;"
+		cellPositioning: #center;
 		listDirection: #leftToRight;
-		vResizing: #shrinkWrap;
-		hResizing: #shrinkWrap;
+		"vResizing: #shrinkWrap;"
+		"hResizing: #shrinkWrap;"
 		listCentering: #center;
 		wrapCentering: #center;
 		layoutInset: 3;
-		minHeight: 26;
+		"minHeight: 26;"
 		borderStyle: (PlatinumButtonBorderStyle new);
 		fillStyle: (PlatinumButtonFillStyle new);
 		addMorph: leftSpacer;

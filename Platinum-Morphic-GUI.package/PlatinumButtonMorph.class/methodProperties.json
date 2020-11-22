@@ -1,16 +1,17 @@
 {
 	"class" : {
-		"labelFontBytes" : " 11/22/2020 09:39:57",
-		"newFillStyle" : " 11/22/2020 09:39:57",
-		"newPushedFillStyle" : " 11/22/2020 09:39:57" },
+		"labelFontBytes" : "11/22/2020 09:39:57",
+		"newFillStyle" : "11/22/2020 09:39:57",
+		"newPushedFillStyle" : "11/22/2020 09:39:57" },
 	"instance" : {
-		"actionBlock:" : " 11/22/2020 09:39:57",
-		"handlesMouseDown:" : " 11/22/2020 09:39:57",
-		"handlesMouseOver:" : " 11/22/2020 09:39:57",
-		"initialize" : " 11/22/2020 09:39:57",
-		"isPressed" : " 11/22/2020 09:39:57",
-		"label:" : " 11/22/2020 09:39:57",
-		"labelMorph" : " 11/22/2020 09:39:57",
-		"mouseDown:" : " 11/22/2020 09:39:57",
-		"mouseUp:" : " 11/22/2020 09:39:57",
-		"performClick" : " 11/22/2020 09:39:57" } }
+		"actionBlock:" : "11/22/2020 09:39:57",
+		"drawOn:" : "EG 11/22/2020 12:22",
+		"handlesMouseDown:" : "11/22/2020 09:39:57",
+		"handlesMouseOver:" : "11/22/2020 09:39:57",
+		"initialize" : "EG 11/22/2020 12:30",
+		"isPressed" : "11/22/2020 09:39:57",
+		"label:" : "11/22/2020 09:39:57",
+		"labelMorph" : "11/22/2020 09:39:57",
+		"mouseDown:" : "11/22/2020 09:39:57",
+		"mouseUp:" : "11/22/2020 09:39:57",
+		"performClick" : "11/22/2020 09:39:57" } }

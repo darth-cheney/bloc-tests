@@ -1,14 +1,15 @@
 OrderedDictionary {
 	'BaselineOfBlocPlatinum.package' : #SquotCypressCodeSerializer,
-	'Platinum-Morphic-Extensions.package' : #SquotCypressCodeSerializer,
-	'Platinum-Bloc-Scrollers.package' : #SquotCypressCodeSerializer,
 	'Platinum-Morphic-GUI.package' : #SquotCypressCodeSerializer,
 	'Platinum-Bloc-GUI.package' : #SquotCypressCodeSerializer,
+	'Platinum-Morphic-Extensions.package' : #SquotCypressCodeSerializer,
+	'Platinum-Bloc-Scrollers.package' : #SquotCypressCodeSerializer,
 	'Platinum-Morphic-Menus.package' : #SquotCypressCodeSerializer,
 	'Platinum-Morphic-Scrollbar.package' : #SquotCypressCodeSerializer,
 	'Platinum-Morphic-Windows.package' : #SquotCypressCodeSerializer,
 	'BaselineOfPlatinum.package' : #SquotCypressCodeSerializer,
 	'CopWindow-Bloc.package' : #SquotCypressCodeSerializer,
 	'CopWindow-Morphic.package' : #SquotCypressCodeSerializer,
-	'Platinum-Bloc-Demos.package' : #SquotCypressCodeSerializer
+	'Platinum-Bloc-Demos.package' : #SquotCypressCodeSerializer,
+	'Platinum-Squeak-Extensions.package' : #SquotCypressCodeSerializer
 }

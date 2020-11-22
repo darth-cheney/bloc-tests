@@ -46,7 +46,7 @@ initialize
 		hResizing: #spaceFill.
 	self
 		height: 15;
-		layoutPolicy: RowLayout new;
+		layoutPolicy: TableLayout new;
 		listDirection: #leftToRight;
 		wrapCentering: #topLeft;
 		hResizing: #spaceFill;

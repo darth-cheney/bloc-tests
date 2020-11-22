@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addFillStyleMenuItems:hand:from:" : " 11/22/2020 09:39:57",
-		"asColor" : " 11/22/2020 09:39:57",
-		"baseColor" : " 11/22/2020 09:39:57",
-		"baseColor:" : " 11/22/2020 09:39:57",
-		"darkHighlightColor" : " 11/22/2020 09:39:57",
-		"drawDarkInnerHiliteRect:on:" : " 11/22/2020 09:39:57",
-		"drawLiteInnerHiliteRect:on:" : " 11/22/2020 09:39:57",
-		"drawUpperHiliteRect:on:" : " 11/22/2020 09:39:57",
-		"fillRectangle:on:" : " 11/22/2020 09:39:57",
-		"initialize" : " 11/22/2020 09:39:57",
-		"lightHighlightColor" : " 11/22/2020 09:39:57",
-		"verticesForRect:" : " 11/22/2020 09:39:57" } }
+		"addFillStyleMenuItems:hand:from:" : "11/22/2020 09:39:57",
+		"asColor" : "11/22/2020 09:39:57",
+		"baseColor" : "11/22/2020 09:39:57",
+		"baseColor:" : "11/22/2020 09:39:57",
+		"darkHighlightColor" : "11/22/2020 09:39:57",
+		"drawDarkInnerHiliteRect:on:" : "11/22/2020 09:39:57",
+		"drawLiteInnerHiliteRect:on:" : "11/22/2020 09:39:57",
+		"drawUpperHiliteRect:on:" : "11/22/2020 09:39:57",
+		"fillRectangle:on:" : "11/22/2020 09:39:57",
+		"initialize" : "11/22/2020 09:39:57",
+		"lightHighlightColor" : "11/22/2020 09:39:57",
+		"verticesForRect:" : "11/22/2020 09:39:57" } }

@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "",
-	"super" : "Morph",
 	"category" : "Platinum-Morphic-Windows",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"closeButton",
 		"leftSlat",
@@ -12,8 +12,9 @@
 		"scaleButton",
 		"minimizeButton",
 		"titleMorph",
-		"moveAction"
-	],
+		"moveAction" ],
 	"name" : "PlatinumWindowTitleBarMorph",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
