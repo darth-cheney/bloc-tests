@@ -1,17 +1,16 @@
 {
-	"category" : "Platinum-Morphic-Windows",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Morph",
+	"category" : "Platinum-Morphic-Windows",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"action",
 		"actionBlock",
 		"form",
-		"pressedForm" ],
+		"pressedForm"
+	],
 	"name" : "PlatinumWindowBarButtonMorph",
-	"pools" : [
-		 ],
-	"super" : "Morph",
-	"type" : "normal" }
+	"type" : "normal"
+}

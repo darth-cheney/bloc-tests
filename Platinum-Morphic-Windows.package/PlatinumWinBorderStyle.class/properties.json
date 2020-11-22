@@ -1,14 +1,11 @@
 {
-	"category" : "Platinum-Morphic-Windows",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PlatinumWinBorderStyle",
-	"pools" : [
-		 ],
 	"super" : "BorderStyle",
-	"type" : "normal" }
+	"category" : "Platinum-Morphic-Windows",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PlatinumWinBorderStyle",
+	"type" : "normal"
+}

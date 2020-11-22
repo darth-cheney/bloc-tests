@@ -1,15 +1,14 @@
 {
-	"category" : "Platinum-Morphic-Windows",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "BorderedMorph",
+	"category" : "Platinum-Morphic-Windows",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"contentMorph",
-		"titleBar" ],
+		"titleBar"
+	],
 	"name" : "PlatinumWindowMorph",
-	"pools" : [
-		 ],
-	"super" : "BorderedMorph",
-	"type" : "normal" }
+	"type" : "normal"
+}
