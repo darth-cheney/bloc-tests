@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "FillStyle",
 	"category" : "Platinum-Morphic-Windows",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PlatinumSlatsFillStyle",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "FillStyle",
+	"type" : "normal" }

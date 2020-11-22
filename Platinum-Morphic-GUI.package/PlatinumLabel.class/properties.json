@@ -1,17 +1,18 @@
 {
-	"commentStamp" : "",
-	"super" : "Morph",
 	"category" : "Platinum-Morphic-GUI",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"string",
 		"font",
 		"fontSize",
 		"textColor",
-		"backgroundColor"
-	],
+		"backgroundColor" ],
 	"name" : "PlatinumLabel",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

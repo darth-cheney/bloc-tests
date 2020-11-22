@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"formSource" : " 11/22/2020 09:40:10",
+		"newForm" : "EG 11/22/2020 10:01",
+		"newPressedForm" : "EG 11/22/2020 11:04",
+		"pressedFormSource" : " 11/22/2020 09:40:10" },
+	"instance" : {
+		"action" : " 11/22/2020 09:40:10",
+		"action:" : " 11/22/2020 09:40:10",
+		"actionBlock" : " 11/22/2020 09:40:10",
+		"actionBlock:" : " 11/22/2020 09:40:10",
+		"handleClick" : " 11/22/2020 09:40:10",
+		"handlesMouseDown:" : " 11/22/2020 09:40:10",
+		"handlesMouseUp:" : " 11/22/2020 09:40:10",
+		"initialize" : " 11/22/2020 09:40:10",
+		"mouseDown:" : " 11/22/2020 09:40:10",
+		"mouseUp:" : " 11/22/2020 09:40:10" } }

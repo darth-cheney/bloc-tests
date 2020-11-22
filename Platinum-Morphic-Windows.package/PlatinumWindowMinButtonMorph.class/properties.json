@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PlatinumWindowBarButtonMorph",
 	"category" : "Platinum-Morphic-Windows",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PlatinumWindowMinButtonMorph",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PlatinumWindowBarButtonMorph",
+	"type" : "normal" }

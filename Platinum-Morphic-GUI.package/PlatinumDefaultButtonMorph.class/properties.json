@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PlatinumButtonMorph",
 	"category" : "Platinum-Morphic-GUI",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PlatinumDefaultButtonMorph",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PlatinumButtonMorph",
+	"type" : "normal" }
