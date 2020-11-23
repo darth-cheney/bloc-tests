@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BorderedMorph",
+	"category" : "Platinum-Morphic-Scrollbar",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"thumb",
+		"updateBlock"
+	],
+	"name" : "PlatinumScrollTrackMorph",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Morph",
+	"category" : "Platinum-Morphic-Scrollbar",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"dragAction"
+	],
+	"name" : "PlatinumScrollThumbMorph",
+	"type" : "normal"
+}
