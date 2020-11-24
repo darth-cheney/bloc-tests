@@ -3,7 +3,7 @@ handleThumbDrag: position
 	"Given a speculative new position for the thumb, ensure that
 	we do not move it outside of the bounds of the track."
 	| yMin yMax diff |
-	yMin := (self bounds origin y).
+	yMin := (self innerBounds origin y).
 	yMax := (self position y + self height) - thumb height.
 
 	(position y between: yMin and: yMax)

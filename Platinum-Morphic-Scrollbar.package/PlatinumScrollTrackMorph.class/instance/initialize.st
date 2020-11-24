@@ -2,14 +2,24 @@ initialization
 initialize
 	super initialize.
 	
-	thumb := PlatinumScrollThumbMorph new.
-	thumb onDragDo: [ :newPos |
+	thumb := PlatinumScrollThumbMorph new
+		width: 14;
+		onDragDo: [ :newPos |
 		self handleThumbDrag: newPos ].
+	
+	inner := Morph new
+		color: Color transparent;
+		vResizing: #spaceFill;
+		hResizing: #spaceFill.
+		
+	inner addMorph: thumb.
 		
 	self
+		layoutPolicy: TableLayout new;
 		vResizing: #spaceFill;
-		hResizing: #shrinkWrap;
+		hResizing: #rigid;
+		width: 16;
 		fillStyle: PlatinumScrollTrackFillStyle new;
 		borderStyle: PlatinumScrollTrackBorderStyle new.
 		
-	self addMorph: thumb.
+	self addMorph: inner.
