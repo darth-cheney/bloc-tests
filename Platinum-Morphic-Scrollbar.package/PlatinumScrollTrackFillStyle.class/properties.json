@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "FillStyle",
 	"category" : "Platinum-Morphic-Scrollbar",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PlatinumScrollTrackFillStyle",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "FillStyle",
+	"type" : "normal" }

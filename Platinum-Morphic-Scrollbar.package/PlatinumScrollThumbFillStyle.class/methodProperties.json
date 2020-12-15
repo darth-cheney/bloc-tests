@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"gripSource" : " 12/15/2020 13:54:23" },
+	"instance" : {
+		"asColor" : " 12/15/2020 13:54:23",
+		"darkHighlightColor" : " 12/15/2020 13:54:23",
+		"drawGripInRect:on:" : " 12/15/2020 13:54:23",
+		"fillRectangle:on:" : " 12/15/2020 13:54:23",
+		"initialize" : "EG 12/15/2020 14:01",
+		"lightHighlightColor" : " 12/15/2020 13:54:23" } }
