@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newFillStyle" : "11/22/2020 09:39:57",
-		"newPushedFillStyle" : "11/22/2020 09:39:57" },
+		"drawFillOn:" : "EG 12/29/2020 15:17" },
 	"instance" : {
-		"initialize" : "11/22/2020 09:39:57" } }
+		"drawOn:" : "EG 12/29/2020 15:23",
+		"initialize" : "EG 12/29/2020 15:15" } }

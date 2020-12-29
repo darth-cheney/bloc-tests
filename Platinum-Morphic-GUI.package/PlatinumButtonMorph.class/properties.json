@@ -8,7 +8,14 @@
 	"instvars" : [
 		"pressed",
 		"actionBlock",
-		"label" ],
+		"label",
+		"baseColor",
+		"darkHighlightColor",
+		"lightHighlightColor",
+		"firstDarkColor",
+		"secondDarkColor",
+		"firstLightColor",
+		"secondLightColor" ],
 	"name" : "PlatinumButtonMorph",
 	"pools" : [
 		 ],

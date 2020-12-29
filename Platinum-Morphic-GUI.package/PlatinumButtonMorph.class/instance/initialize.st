@@ -1,6 +1,7 @@
 initialization
 initialize
 	| leftSpacer rightSpacer |
+	self baseColor: (Color r: 221 g: 221 b: 221 range: 255).
 	leftSpacer := Morph new
 		color: Color transparent;
 		width: 15;

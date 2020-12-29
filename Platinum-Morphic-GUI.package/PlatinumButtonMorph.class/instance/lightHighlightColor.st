@@ -1,0 +1,3 @@
+drawing
+lightHighlightColor
+	^ lightHighlightColor

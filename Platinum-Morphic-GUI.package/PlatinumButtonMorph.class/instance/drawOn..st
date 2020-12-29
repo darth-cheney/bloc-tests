@@ -1,10 +1,9 @@
-as yet unclassified
+drawing
 drawOn: aCanvas
+	pressed 
+		ifTrue: [
+			self drawPressedFillRect: (self bounds insetBy: self borderWidth) on: aCanvas ]
+		ifFalse: [
+			self drawFillRect: (self bounds insetBy: self borderWidth) on: aCanvas ].
 
-	"First, if there is a platinum fill style, we draw that"
-	self fillStyle ifNotNil: [
-		self fillStyle 
-			fillRectangle: (self bounds insetBy: self borderWidth) 
-			on: aCanvas ].
-		
 	super drawOn: aCanvas

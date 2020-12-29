@@ -1,3 +1,0 @@
-instance creation
-newPushedFillStyle
-	^ PlatinumDefButtonPushFillStyle new
