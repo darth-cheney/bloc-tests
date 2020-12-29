@@ -28,19 +28,17 @@ initialize
 		height: 13;
 		hResizing: #rigid.
 	closeButton := PlatinumWindowBarButtonMorph new.
-	leftSlat := Morph new.
-	rightSlat := Morph new.
+	leftSlat := PlatinumWindowSlatsMorph new.
+	rightSlat := PlatinumWindowSlatsMorph new.
 	scaleButton := PlatinumWindowGrowButtonMorph new.
 	minimizeButton := PlatinumWindowMinButtonMorph new.
 	titleMorph := PlatinumLabel new.
 	titleMorph fontSize: 9.
 	leftSlat
-		fillStyle: (PlatinumSlatsFillStyle new);
 		height: 12;
 		vResizing: #rigid;
 		hResizing: #spaceFill.
 	rightSlat
-		fillStyle: (PlatinumSlatsFillStyle new);
 		height: 12;
 		vResizing: #rigid;
 		hResizing: #spaceFill.

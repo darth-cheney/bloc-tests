@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "PlatinumSlatsFillStyle",
+	"name" : "PlatinumWindowSlatsMorph",
 	"pools" : [
 		 ],
-	"super" : "FillStyle",
+	"super" : "Morph",
 	"type" : "normal" }

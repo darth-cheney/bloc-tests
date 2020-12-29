@@ -1,5 +1,7 @@
-action
-fillRectangle: aRect on: aCanvas
+as yet unclassified
+drawOn: aCanvas
+	| aRect |
+	aRect := self bounds.
 	0 to: 11 do: [ :idx |
 		idx even
 			ifTrue: [ 
@@ -14,3 +16,4 @@ fillRectangle: aRect on: aCanvas
 					to: (aRect corner x - 1)@(aRect origin y + idx)
 					width: 1
 					color: (Color r: 119 g: 119 b: 119 range: 255) ] ]
+	
