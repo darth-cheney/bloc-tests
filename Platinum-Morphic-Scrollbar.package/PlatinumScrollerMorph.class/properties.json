@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "Morph",
 	"category" : "Platinum-Morphic-Scrollbar",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"track",
 		"increaseButton",
-		"decreaseButton"
-	],
+		"decreaseButton" ],
 	"name" : "PlatinumScrollerMorph",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
