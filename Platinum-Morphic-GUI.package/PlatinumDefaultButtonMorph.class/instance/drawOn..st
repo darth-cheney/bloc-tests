@@ -1,8 +1,8 @@
 initialization
 drawOn: aCanvas
 	| aRect |
-	aRect := self bounds insetBy: (self borderWidth + 3).
 	super drawOn: aCanvas.
+	aRect := self bounds insetBy: (self borderWidth + 3).
 	pressed
 		ifTrue: [
 			self drawPressedFillRect: aRect on: aCanvas ]

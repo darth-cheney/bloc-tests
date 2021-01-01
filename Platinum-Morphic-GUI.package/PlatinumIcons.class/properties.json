@@ -1,14 +1,11 @@
 {
-	"category" : "Platinum-Morphic-GUI",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "EricGade 4/5/2019 17:10",
-	"instvars" : [
-		 ],
-	"name" : "PlatinumIcons",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "Platinum-Morphic-GUI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PlatinumIcons",
+	"type" : "normal"
+}

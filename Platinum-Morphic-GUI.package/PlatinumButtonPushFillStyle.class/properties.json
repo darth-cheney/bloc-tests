@@ -1,18 +1,17 @@
 {
-	"category" : "Platinum-Morphic-GUI",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "FillStyle",
+	"category" : "Platinum-Morphic-GUI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"baseColor",
 		"firstDarkColor",
 		"secondDarkColor",
 		"firstLightColor",
-		"secondLightColor" ],
+		"secondLightColor"
+	],
 	"name" : "PlatinumButtonPushFillStyle",
-	"pools" : [
-		 ],
-	"super" : "FillStyle",
-	"type" : "normal" }
+	"type" : "normal"
+}
