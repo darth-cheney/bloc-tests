@@ -1,0 +1,16 @@
+{
+	"category" : "Platinum-Morphic-Lists",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"labelMorph",
+		"hasContents",
+		"caratMorph" ],
+	"name" : "PlatinumListItemMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

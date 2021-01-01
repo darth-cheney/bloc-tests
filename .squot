@@ -11,5 +11,6 @@ OrderedDictionary {
 	'Platinum-Bloc-GUI.package' : #SquotCypressCodeSerializer,
 	'Platinum-Morphic-Extensions.package' : #SquotCypressCodeSerializer,
 	'Platinum-Bloc-Scrollers.package' : #SquotCypressCodeSerializer,
-	'Platinum-Morphic-Menus.package' : #SquotCypressCodeSerializer
+	'Platinum-Morphic-Menus.package' : #SquotCypressCodeSerializer,
+	'Platinum-Morphic-Lists.package' : #SquotCypressCodeSerializer
 }

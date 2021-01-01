@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"closedCaratMorph" : "EG 1/1/2021 16:46",
+		"closedCaratSource" : "EG 1/1/2021 16:30",
+		"openCaratMorph" : "EG 1/1/2021 16:47",
+		"openCaratSource" : "EG 1/1/2021 16:35" },
+	"instance" : {
+		"addCaratMorph" : "EG 1/1/2021 17:21",
+		"hasContents:" : "EG 1/1/2021 17:02",
+		"initialize" : "EG 1/1/2021 17:37",
+		"label:" : "EG 1/1/2021 17:14",
+		"removeCaratMorph" : "EG 1/1/2021 17:03" } }
