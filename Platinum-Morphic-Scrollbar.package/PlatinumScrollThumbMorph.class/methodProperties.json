@@ -1,9 +1,14 @@
 {
 	"class" : {
-		 },
+		"gripSource" : "EG 1/1/2021 15:22" },
 	"instance" : {
+		"darkHighlightColor" : "EG 1/1/2021 15:21",
+		"drawGripInRect:on:" : "EG 1/1/2021 15:21",
+		"drawOn:" : "EG 1/1/2021 15:24",
 		"handlesMouseDown:" : "12/15/2020 13:54:23",
-		"initialize" : "12/15/2020 13:54:23",
+		"initialize" : "EG 1/1/2021 15:22",
+		"lightHighlightColor" : "EG 1/1/2021 15:22",
 		"mouseDown:" : "12/15/2020 13:54:23",
 		"mouseMove:" : "12/15/2020 13:54:23",
-		"onDragDo:" : "12/15/2020 13:54:23" } }
+		"onDragDo:" : "12/15/2020 13:54:23",
+		"primaryColor" : "EG 1/1/2021 15:21" } }

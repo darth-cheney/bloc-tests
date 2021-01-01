@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"gripForm" ],
-	"name" : "PlatinumScrollThumbFillStyle",
+		"arrowForm" ],
+	"name" : "PlatinumScrollButtonMorph",
 	"pools" : [
 		 ],
-	"super" : "FillStyle",
+	"super" : "Morph",
 	"type" : "normal" }

@@ -1,8 +1,10 @@
-action
-fillRectangle: aRect on: aCanvas
+as yet unclassified
+drawOn: aCanvas
+	| aRect |
+	aRect := self bounds.
 	aCanvas
 		fillRectangle: aRect
-		color: self asColor;
+		color: self primaryColor;
 		
 		line: (aRect corner x - 2)@(aRect origin y)
 		to: aRect origin 

@@ -1,10 +1,11 @@
-action
-fillRectangle: aRect on: aCanvas
-
+as yet unclassified
+drawOn: aCanvas
+	| aRect |
+	aRect := self bounds.
 	"Fill whole rect with base color"
 	aCanvas
 		fillRectangle: aRect
-		color: self asColor;
+		color: self primaryColor;
 		
 	"Light highlight"
 	line: (aRect corner x - 2)@(aRect origin y)

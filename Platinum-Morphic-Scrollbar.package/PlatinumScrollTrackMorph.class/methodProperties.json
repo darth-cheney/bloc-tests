@@ -2,7 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"darkInnerColor" : "EG 1/1/2021 15:15",
+		"darkOuterColor" : "EG 1/1/2021 15:15",
+		"drawOn:" : "EG 1/1/2021 15:18",
 		"handleThumbDrag:" : "12/15/2020 13:54:23",
-		"initialize" : "12/15/2020 13:54:23",
+		"initialize" : "EG 1/1/2021 15:24",
+		"lightInnerColor" : "EG 1/1/2021 15:15",
+		"lightOuterColor" : "EG 1/1/2021 15:15",
+		"primaryColor" : "EG 1/1/2021 15:18",
 		"thumb" : "12/15/2020 13:54:23",
 		"whenPositionUpdates:" : "12/15/2020 13:54:23" } }

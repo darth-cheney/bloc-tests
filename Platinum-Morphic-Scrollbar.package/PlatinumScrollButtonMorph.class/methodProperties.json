@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"downArrowSource" : "EG 1/1/2021 15:27",
+		"leftArrowSource" : "EG 1/1/2021 15:27",
+		"rightArrowSource" : "EG 1/1/2021 15:27",
+		"upArrowSource" : "EG 1/1/2021 15:27" },
+	"instance" : {
+		"darkHighlightColor" : "EG 1/1/2021 15:28",
+		"direction:" : "EG 1/1/2021 15:29",
+		"drawArrowInRect:on:" : "EG 1/1/2021 15:30",
+		"drawOn:" : "EG 1/1/2021 15:30",
+		"formForDirection:" : "EG 1/1/2021 15:29",
+		"initialize" : "EG 1/1/2021 15:30",
+		"lightHighlightColor" : "EG 1/1/2021 15:28",
+		"primaryColor" : "EG 1/1/2021 15:28" } }

@@ -1,8 +1,6 @@
 initialization
 initialize
 	super initialize.
-	self
-		height: 28;
-		hResizing: #spaceFill;
-		vResizing: #rigid;
-		fillStyle: PlatinumScrollThumbFillStyle new.
+	
+	"Build the grip form from the class source"
+	gripForm := PNGReadWriter formFromStream: (ReadStream on: self class gripSource base64Decoded asByteArray).

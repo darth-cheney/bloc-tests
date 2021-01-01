@@ -19,7 +19,6 @@ initialize
 		vResizing: #spaceFill;
 		hResizing: #rigid;
 		width: 16;
-		fillStyle: PlatinumScrollTrackFillStyle new;
 		borderStyle: PlatinumScrollTrackBorderStyle new.
 		
 	self addMorph: inner.
