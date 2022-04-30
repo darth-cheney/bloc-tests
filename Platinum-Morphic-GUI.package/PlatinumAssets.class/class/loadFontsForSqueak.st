@@ -5,6 +5,8 @@ loadFontsForSqueak
 		installTTF: 'F:\fonts\amazon__.TTF' 
 		asTextStyle: #Amazon
 		sizes: #(24 60)"
-	| fontStream |
+	| fontStream fileStream |
 	fontStream := self charcoalBytes base64Decoded asByteArray readStream.
-	TTCFont newTextStyleFromTTStream: fontStream
+	fileStream := FileStream newFileNamed: 'charcoal.ttf'.
+	fileStream nextPutAll: fontStream upToEnd.
+	TTCFont installFromFileNames: { fileStream name }.

@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PlatinumButtonBorderStyle",
 	"category" : "Platinum-Morphic-GUI",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PlatinumDefButtonBorderStyle",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PlatinumButtonBorderStyle",
+	"type" : "normal" }

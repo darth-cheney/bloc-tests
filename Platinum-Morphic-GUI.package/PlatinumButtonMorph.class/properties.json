@@ -1,12 +1,10 @@
 {
-	"commentStamp" : "",
-	"super" : "BorderedMorph",
 	"category" : "Platinum-Morphic-GUI",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classinstvars" : [
+		 ],
 	"classvars" : [
-		"LabelFontBytes"
-	],
+		"LabelFontBytes" ],
+	"commentStamp" : "",
 	"instvars" : [
 		"pressed",
 		"actionBlock",
@@ -17,8 +15,9 @@
 		"firstDarkColor",
 		"secondDarkColor",
 		"firstLightColor",
-		"secondLightColor"
-	],
+		"secondLightColor" ],
 	"name" : "PlatinumButtonMorph",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }

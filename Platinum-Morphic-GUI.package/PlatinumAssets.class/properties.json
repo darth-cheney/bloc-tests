@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
 	"category" : "Platinum-Morphic-GUI",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classinstvars" : [
+		 ],
 	"classvars" : [
-		"FontBytes"
-	],
-	"instvars" : [ ],
+		"FontBytes" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PlatinumAssets",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
